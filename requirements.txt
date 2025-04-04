@@ -4,3 +4,7 @@ python-dotenv
 streamlit
 langchain_community
 langchain_google_genai
+sse_starlette
+fastapi
+uvicorn
+langserve

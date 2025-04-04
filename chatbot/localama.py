@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 import streamlit as st
 
 import os
@@ -22,6 +22,6 @@ prompt = ChatPromptTemplate.from_messages(
 st.title('Langchain Demo With LLAMA2 API')
 input_text = st.text_input("Search the topic you want")
 
-llm = Ollama(model="llama2")
+llm = OllamaLLM(model="llama2")
 output_parser = StrOutputParser()
 chain = prompt | llm | output_parser
