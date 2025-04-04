@@ -8,3 +8,6 @@ sse_starlette
 fastapi
 uvicorn
 langserve
+ipykernel 
+bs4
+pypdf
