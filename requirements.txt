@@ -10,7 +10,13 @@ uvicorn
 langserve
 ipykernel 
 bs4
+beautifulsoup4
 pypdf
 chromadb
 faiss-cpu
 embedder
+arxiv
+wikipedia
+langchainhub
+groq
+langchain-groq
