@@ -11,3 +11,6 @@ langserve
 ipykernel 
 bs4
 pypdf
+chromadb
+faiss-cpu
+embedder
